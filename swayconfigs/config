@@ -17,6 +17,7 @@ set $right l
 set $term alacritty
 # Your preferred application launcher
 set $ipc noctalia msg
+set $menu wmenu-run
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
@@ -38,7 +39,7 @@ set $ipc noctalia msg
     bindsym $mod+q kill
 
     # Start your launcher
-    bindsym Mod1+space exec $ipc panel-toggle launcher
+    bindsym Mod1+space exec $menu
 
     #core noctalia bar binds
     bindsym $mod+s exec $ipc panel-toggle control-center
