@@ -184,13 +184,11 @@ bindsym $mod+r mode "resize"
     # Special key to take a screenshot with grim
     bindsym Print exec grim
 # default_border normal|none|pixel [<n>]
-default_border pixel 2
+default_border pixel 3
 
-#Window blur
-blur enable
-blur_xray disable
-blur_passes 3
-blur_radius 5
+#Corner Rounding
+smart_corner_radius enable
+corner_radius 10
 
 layer_effects "noctalia" blur enable; corner_radius 12
 
