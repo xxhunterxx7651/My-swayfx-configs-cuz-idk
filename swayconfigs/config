@@ -43,7 +43,7 @@ set $ipc noctalia msg
     #core noctalia bar binds
     bindsym $mod+s exec $ipc panel-toggle control-center
     bindsym $mod+comma exec $ipc settings-toggle
-
+    bindsym $mod+period exec $ipc panel-toggle wallpaper
 
 
     # Drag floating windows by holding down $mod and left mouse button.
