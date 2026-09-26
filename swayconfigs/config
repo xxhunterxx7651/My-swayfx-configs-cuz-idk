@@ -44,7 +44,7 @@ set $ipc noctalia msg
     bindsym $mod+s exec $ipc panel-toggle control-center
     bindsym $mod+comma exec $ipc settings-toggle
     bindsym $mod+period exec $ipc panel-toggle wallpaper
-
+    bindsym $mod+m exec $ipc panel-toggle noctalia/wallhaven:browser
 
     # Drag floating windows by holding down $mod and left mouse button.
     # Resize them with right mouse button + $mod.
